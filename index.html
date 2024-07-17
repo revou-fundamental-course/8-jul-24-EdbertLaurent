@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <header class="main-title">
+       <h1>Hitung BMI</h1>
+   </header>
+   <main>
+           <!-- LeftContent -->
+          <section class="main-content">
+                <!--Main Article-->
+               <article>
+                 <p>lorem ipsum dolor sit amet ....</p>
+               </article>
+
+            <!--Form-->
+            <section>
+                <form action="">
+                    <div>  
+                          <div class="input-title">Gender</div>
+                           <input type="radio" id="selection-man" ><label for="">Cowo</label>
+                           <input type="radio" id="selection-woman"><label for="">Cewe</label>
+                    </div>
+                    <div>
+                      <label for="">Berat Badan (KG)</label>
+                      <input type="number" id="input-berat-badan">
+                    </div>
+                     <div>
+                      <label for="">Umur(tahun)</label>
+                      <input type="number" id="usia">
+                    </div>
+                    <div>
+                      <label for="">Tinggi Badan (CM)</label>
+                      <input type="number" id="input-tinggi-badan">
+                    </div>
+                     <div>
+                       <button class="button submit"    type="button"       onclick="updateResult()">Submit BMI</button>
+                       <button class="button reset">Reset</button>
+                     </div>
+                </form>
+            </section>
+
+              <!--Form Article-->
+             <section>
+                <header>
+                  <h2>Keungulan itur</h2>
+                </header>
+                
+                <article>
+                  <p>lorem ipsum</p>
+                </article>
+             </section>
+
+          </section>
+           <!-- Right Content -->
+            <section class="main-content result-content" style="display:none">
+               <!--Result Article-->
+             <article>
+              <header>
+                <h1>Result</h1>
+              </header>
+
+              <!--Result Section-->
+                <section class="Result-Section">
+                      <p>Hasil Result Adalah:</p>
+                      <h2 id="bmi-result">24.3</h2>
+
+                      <p>Anda Memiliki Berat Badan Berlebihan  </p>
+                </section>
+              <!--result article-->
+              <article>
+
+              </article>
+            </article>
+            </section>
+
+
+
+           
+            <footer>
+
+            </footer>
+   </main>
+
+   <script src="js/function.js"></script>
+</body>
+</html>
